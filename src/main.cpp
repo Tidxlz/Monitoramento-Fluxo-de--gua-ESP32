@@ -157,7 +157,7 @@ void loop() {
     digitalWrite(LED_PIN, flow > LIMITE_VAZAO ? HIGH : LOW);
     atualizaDisplay(p, frequency, flow);
 
-    Serial.printf("Pulsos: %lu | Freq: %.1f Hz | Vazao: %.2f L/min\n",
+    Serial.printf("Pulsos: %lu | Freq: %.1f Hz | Vazao: %.2f L/min\r\n",
                   p, frequency, flow);
   }
 }
