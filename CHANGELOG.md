@@ -1,18 +1,12 @@
 # Changelog
 
-Registro das mudanças do projeto, organizado por versão. Cada versão corresponde a uma etapa do [roadmap](README.md#roadmap).
+Registro das mudanças do projeto. Cada versão corresponde a uma etapa concluída do [roadmap](README.md#roadmap).
 
-O formato segue o padrão [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
+O formato segue o padrão [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/). Mudanças ainda não incluídas em uma versão ficam na seção **Não lançado**.
 
 ## [Não lançado]
 
-### Planejado
-- Modo de calibração com contagem acumulada de pulsos
-- Cálculo de volume acumulado
-
-## [0.1.0] - 2026-09-30
-
-Primeira versão funcional: medição de vazão simulada no Wokwi.
+A primeira versão está em validação. Os itens abaixo foram implementados, mas só entram na **v0.1.0** depois de testados na simulação.
 
 ### Adicionado
 - Contagem de pulsos do YF-S201 por interrupção no GPIO27
@@ -27,5 +21,5 @@ Primeira versão funcional: medição de vazão simulada no Wokwi.
 - Compilação automática com GitHub Actions
 - Documentação técnica, registro de decisões, procedimento de calibração e lista de materiais
 
-[Não lançado]: ../../compare/v0.1.0...HEAD
-[0.1.0]: ../../releases/tag/v0.1.0
+### Corrigido
+- Removida a tag `v0.1.0`, criada antes de a simulação ser testada
