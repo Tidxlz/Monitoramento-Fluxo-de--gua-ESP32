@@ -20,6 +20,7 @@ A primeira versão está em validação. Os itens abaixo foram implementados, ma
 - Configurações centralizadas em `include/config.h`
 - Compilação automática com GitHub Actions
 - Documentação técnica, registro de decisões, procedimento de calibração e lista de materiais
+- Registro de validação por etapa em `docs/validacao.md`
 
 ### Corrigido
 - Removida a tag `v0.1.0`, criada antes de a simulação ser testada

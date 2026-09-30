@@ -21,11 +21,11 @@ Protótipo que mede quanta água está passando por um cano usando um **ESP32**,
 | Etapa | Objetivo | Situação |
 |---|---|---|
 | 1 | Estrutura do repositório, código e documentação | Concluída |
-| 2 | Compilar o firmware com o PlatformIO | A fazer |
+| 2 | Compilar o firmware com o PlatformIO | Concluída |
 | 3 | Simular no Wokwi: OLED, LED e geração de pulsos | A fazer |
 | 4 | Validar o cálculo de vazão e o alerta em toda a faixa do potenciômetro | A fazer |
 
-Ao concluir a etapa 4, o projeto recebe sua primeira versão, a **v0.1.0**. O histórico de mudanças está no [CHANGELOG.md](CHANGELOG.md).
+Os resultados de cada teste ficam registrados em [docs/validacao.md](docs/validacao.md). Ao concluir a etapa 4, o projeto recebe sua primeira versão, a **v0.1.0**. O histórico de mudanças está no [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
@@ -254,6 +254,7 @@ Cada etapa concluída vira uma versão marcada no repositório. O histórico det
 ```
 ├── README.md                  ← você está aqui
 ├── CHANGELOG.md               ← mudanças de cada versão
+├── LICENSE                    ← licença MIT
 ├── platformio.ini             ← configuração do PlatformIO
 ├── wokwi.toml                 ← configuração do Wokwi para VS Code
 ├── diagram.json               ← circuito da simulação
@@ -265,6 +266,7 @@ Cada etapa concluída vira uma versão marcada no repositório. O histórico det
 │   ├── documentacao-completa.md
 │   ├── decisoes.md            ← por que cada escolha foi feita
 │   ├── calibracao.md          ← procedimento de calibração
+│   ├── validacao.md           ← resultados dos testes de cada etapa
 │   ├── imagens/               ← prints, GIFs e fotos
 │   └── apresentacao/          ← slides do trabalho
 ├── hardware/
