@@ -24,3 +24,5 @@ A primeira versão está em validação. Os itens abaixo foram implementados, ma
 
 ### Corrigido
 - Removida a tag `v0.1.0`, criada antes de a simulação ser testada
+- Quebra de linha do Monitor Serial no terminal do Wokwi (`\r\n` no lugar de `\n`)
+- Fios do OLED atravessando a tela na simulação

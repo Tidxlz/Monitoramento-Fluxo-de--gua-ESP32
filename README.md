@@ -22,7 +22,7 @@ Protótipo que mede quanta água está passando por um cano usando um **ESP32**,
 |---|---|---|
 | 1 | Estrutura do repositório, código e documentação | Concluída |
 | 2 | Compilar o firmware com o PlatformIO | Concluída |
-| 3 | Simular no Wokwi: OLED, LED e geração de pulsos | A fazer |
+| 3 | Simular no Wokwi: OLED, LED e geração de pulsos | Concluída |
 | 4 | Validar o cálculo de vazão e o alerta em toda a faixa do potenciômetro | A fazer |
 
 Os resultados de cada teste ficam registrados em [docs/validacao.md](docs/validacao.md). Ao concluir a etapa 4, o projeto recebe sua primeira versão, a **v0.1.0**. O histórico de mudanças está no [CHANGELOG.md](CHANGELOG.md).
